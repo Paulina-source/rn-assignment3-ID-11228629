@@ -1,8 +1,8 @@
 import React from 'react';
 const profileImage = require('./assets/profilepic.png');
 const filterObject = require('./assets/filter.jpg');
-const workingWoman = require('./assets/onlinework.png');
-const deskwoman = require('./assets/deskwoman.png');
+const workingWoman = require('./assets/working.png');
+const deskwoman = require('./assets/learning.png');
 const coder = require('./assets/coder.jpg');
 import { View, Text, TextInput, ScrollView, TouchableOpacity, Image, StyleSheet } from 'react-native';
 
