@@ -169,6 +169,7 @@ const styles = StyleSheet.create({
   filterImage: {
     width: 50,
     height: 50,
+    backgroundColor: '#F0522F',
   },
   categories: {
     flexDirection: 'row',
