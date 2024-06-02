@@ -1,22 +1,21 @@
 import React from 'react';
-const profileImage = require('./assets/profilepic.jpg');
+const profileImage = require('./assets/profilepic.png');
 const filterObject = require('./assets/filter.jpg');
 const workingWoman = require('./assets/working.png');
 const deskwoman = require('./assets/learning.png');
-const coder = require('./assets/coder.png');
-const calender = require('./assets/calender.png');
-const organize = require('./assets/organize.png');
-const meeting = require('./assets/meeting.png');
-const leisure = require('./assets/leisure.jpg');
-const news = require('./assets/news.png');
+const coder = require('./assets/coder.jpeg');
+const calendar = require('./assets/calendar.jpeg');
+const organize = require('./assets/organize.jpeg');
+const meeting = require('./assets/meeting.jpeg');
+const leisure = require('./assets/leisure.jpeg');
+const news = require('./assets/news.jpeg');
 import { View, Text, TextInput, ScrollView, TouchableOpacity, Image, StyleSheet } from 'react-native';
-
-const App = () => {
+  const App = () => {
   const categories = [
     { title: 'Exercise', tasks: '12 Tasks', image: workingWoman },
-    { title: 'Study', tasks: '12 Tasks', image: deskwoman },
+    { title: 'Study', tasks: '12 Tasks', image:deskwoman },
     { title: 'Code', tasks: '8 Tasks', image: coder },
-    { title: 'Events', tasks: '5 Tasks', image: calender },
+    { title: 'Events', tasks: '5 Tasks', image: calendar },
     { title: 'Organize', tasks: '10 Tasks', image: organize },
     { title: 'Meeting', tasks: '7 Tasks', image: meeting },
     { title: 'Leisure', tasks: '6 Tasks', image: leisure },
@@ -95,7 +94,7 @@ const App = () => {
         </TouchableOpacity>
         <TouchableOpacity style={styles.task}>
 
-joy, [31/05/2024 5:12 pm]
+
 <Text style={styles.taskText}>DEV conference</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.task}>
